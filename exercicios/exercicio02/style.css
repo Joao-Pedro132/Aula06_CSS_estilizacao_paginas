@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+}
+
+.cabecalho{
+    background-color: blue;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.texto1{
+    margin-top: 10px;
+}
+
+.corpo{
+    margin: 17px 350px 10px 350px;
+    border-radius: 2px;
+    background-color: whitesmoke;
+    padding: 40px;
+}
+
+.texto2{
+    margin-top: 10px;
+}
+
+.texto3{
+    margin-top: 10px;
+    color: blue;
+    font-size: 25px;
+}
+
+.corpo-oficinas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 10px;
+}
+
+.oficinas1{
+    background-color: aqua;
+    text-align: center;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    color: blue;
+    box-shadow: 2px 2px 2px 2px gray ;
+}
+
+.oficinas2{
+    background-color: greenyellow;
+    color: green;
+    text-align: center;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 33px;
+    box-shadow: 2px 2px 2px 2px gray ;
+}
+
+.oficinas3{
+    background-color: orange;
+    text-align: center;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    color: orangered;
+    box-shadow: 2px 2px 2px 2px gray ;
+}

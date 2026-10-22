@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    padding: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cabecalho a{
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+}
+
+#titulo{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.corpo{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 10px;
+}
+
+.blocos{
+    background-color: aqua;
+    text-align: center;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 10px;
+}
